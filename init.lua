@@ -1,20 +1,3 @@
 return {
-  plugins = {
-    "AstroNvim/astrocommunity",
-    { import = "astrocommunity.colorscheme.catppuccin" },
-    { import = "astrocommunity.editing-support.auto-save-nvim" },
-	  { import = "astrocommunity.motion.flash-nvim" },
-	  { import = "astrocommunity.motion.mini-move" },
-	  { import = "astrocommunity.motion.nvim-surround" },
-	  { import = "astrocommunity.project.project-nvim" },
-	  { import = "astrocommunity.lsp.inc-rename-nvim" },
-	  { import = "astrocommunity.lsp.lsp_signature.nvim" },
-	  { import = "astrocommunity.pack.json" },
-	  { import = "astrocommunity.pack.vue" },
-	  { import = "astrocommunity.pack.python" },
-	  { import = "astrocommunity.pack.typescript" },
-	  { import = "astrocommunity.pack.yaml" },
-	  { import = "astrocommunity.pack.terraform" },
-	  { import = "astrocommunity.pack.tailwindcss" },
-  },
+  colorscheme = "astrodark",
 }
